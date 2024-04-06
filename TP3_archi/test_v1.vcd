@@ -1,0 +1,404 @@
+$date
+  Sat Dec  4 00:08:48 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module proc_v1_test $end
+$var reg 8 ! instr[7:0] $end
+$var reg 1 " rst $end
+$var reg 1 # clk $end
+$var reg 1 $ init $end
+$scope module proc $end
+$var reg 8 % instr[7:0] $end
+$var reg 1 & init $end
+$var reg 1 ' rst $end
+$var reg 1 ( clk $end
+$var reg 1 ) wr_bank_out $end
+$var reg 1 * wr_instr_out $end
+$var reg 8 + r_out_reg[7:0] $end
+$scope module se $end
+$var reg 1 , init $end
+$var reg 1 - clk $end
+$var reg 1 . wr_instr $end
+$var reg 1 / wr_bank $end
+$var reg 1 0 b_out_1 $end
+$var reg 1 1 b_out_2 $end
+$scope module baun $end
+$var reg 1 2 e $end
+$var reg 1 3 clk $end
+$var reg 1 4 rst $end
+$var reg 1 5 set $end
+$var reg 1 6 s $end
+$upscope $end
+$scope module badeux $end
+$var reg 1 7 e $end
+$var reg 1 8 clk $end
+$var reg 1 9 rst $end
+$var reg 1 : set $end
+$var reg 1 ; s $end
+$upscope $end
+$upscope $end
+$scope module re $end
+$var reg 8 < r_in[7:0] $end
+$var reg 1 = wr $end
+$var reg 1 > rst $end
+$var reg 1 ? clk $end
+$var reg 8 @ r_out[7:0] $end
+$upscope $end
+$scope module pr $end
+$var reg 2 A op[1:0] $end
+$var reg 3 B reg_0_id[2:0] $end
+$var reg 3 C reg_1_id[2:0] $end
+$var reg 1 D rst $end
+$var reg 1 E clk $end
+$var reg 1 F wr_bank $end
+$var reg 8 G mux_out[7:0] $end
+$var reg 8 H alu_out[7:0] $end
+$var reg 8 I bank_out_0[7:0] $end
+$var reg 8 J bank_out_1[7:0] $end
+$var reg 8 K mux_in_5_3[7:0] $end
+$var reg 1 L op_out_and $end
+$scope module mu $end
+$var reg 8 M e0[7:0] $end
+$var reg 8 N e1[7:0] $end
+$var reg 1 O c $end
+$var reg 8 P o[7:0] $end
+$upscope $end
+$scope module al $end
+$var reg 8 Q r_e0[7:0] $end
+$var reg 8 R r_e1[7:0] $end
+$var reg 2 S op[1:0] $end
+$var reg 8 T r_s[7:0] $end
+$upscope $end
+$scope module ba $end
+$var reg 3 U reg_0_id[2:0] $end
+$var reg 3 V reg_1_id[2:0] $end
+$var reg 8 W reg_write_val[7:0] $end
+$var reg 1 X wr $end
+$var reg 1 Y clk $end
+$var reg 1 Z rst $end
+$var reg 8 [ reg_0_val[7:0] $end
+$var reg 8 \ reg_1_val[7:0] $end
+$comment regs is not handled $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUU !
+0"
+0#
+0$
+bUUUUUUUU %
+0&
+0'
+0(
+U)
+U*
+bUUUUUUUU +
+0,
+0-
+U.
+U/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+bUUUUUUUU <
+U=
+1>
+0?
+bUUUUUUUU @
+bUU A
+bUUU B
+bUUU C
+0D
+0E
+UF
+bUUUUUUUU G
+bUUUUUUUU H
+bUUUUUUUU I
+bUUUUUUUU J
+b00000UUU K
+UL
+bUUUUUUUU M
+b00000UUU N
+UO
+bUUUUUUUU P
+bUUUUUUUU Q
+bUUUUUUUU R
+bUU S
+bUUUUUUUU T
+bUUU U
+bUUU V
+bUUUUUUUU W
+UX
+0Y
+0Z
+bUUUUUUUU [
+bUUUUUUUU \
+#5000000
+b11000100 !
+1"
+1$
+b11000100 %
+1&
+1'
+1,
+14
+15
+19
+1:
+b11000100 <
+1D
+1Z
+#10000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#15000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y
+#20000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#25000000
+b11010011 !
+0#
+b11010011 %
+0(
+0-
+03
+08
+b11010011 <
+0?
+0E
+0Y
+#30000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#35000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y
+#40000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#45000000
+b00000010 !
+0#
+b00000010 %
+0(
+0-
+03
+08
+b00000010 <
+0?
+0E
+0Y
+#50000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#55000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y
+#60000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#65000000
+b11111111 !
+0#
+b11111111 %
+0(
+0-
+03
+08
+b11111111 <
+0?
+0E
+0Y
+#70000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#75000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y
+#80000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#85000000
+b01000111 !
+0#
+b01000111 %
+0(
+0-
+03
+08
+b01000111 <
+0?
+0E
+0Y
+#90000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#95000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y
+#100000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#105000000
+b10111010 !
+0#
+b10111010 %
+0(
+0-
+03
+08
+b10111010 <
+0?
+0E
+0Y
+#110000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#115000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y
+#120000000
+1#
+1(
+1-
+13
+18
+1?
+1E
+1Y
+#125000000
+0#
+0(
+0-
+03
+08
+0?
+0E
+0Y

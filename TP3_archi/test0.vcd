@@ -1,0 +1,327 @@
+$date
+  Tue Nov 23 10:55:17 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module proc_v0_test $end
+$var reg 2 ! op[1:0] $end
+$var reg 3 " reg_0_id[2:0] $end
+$var reg 3 # reg_1_id[2:0] $end
+$var reg 1 $ rst $end
+$var reg 1 % clk $end
+$var reg 1 & wr_bank $end
+$scope module proc $end
+$var reg 2 ' op[1:0] $end
+$var reg 3 ( reg_0_id[2:0] $end
+$var reg 3 ) reg_1_id[2:0] $end
+$var reg 1 * rst $end
+$var reg 1 + clk $end
+$var reg 1 , wr_bank $end
+$var reg 8 - mux_out[7:0] $end
+$var reg 8 . alu_out[7:0] $end
+$var reg 8 / bank_out_0[7:0] $end
+$var reg 8 0 bank_out_1[7:0] $end
+$var reg 8 1 mux_in_5_3[7:0] $end
+$var reg 1 2 op_out_and $end
+$scope module mu $end
+$var reg 8 3 e0[7:0] $end
+$var reg 8 4 e1[7:0] $end
+$var reg 1 5 c $end
+$var reg 8 6 o[7:0] $end
+$upscope $end
+$scope module al $end
+$var reg 8 7 r_e0[7:0] $end
+$var reg 8 8 r_e1[7:0] $end
+$var reg 2 9 op[1:0] $end
+$var reg 8 : r_s[7:0] $end
+$upscope $end
+$scope module ba $end
+$var reg 3 ; reg_0_id[2:0] $end
+$var reg 3 < reg_1_id[2:0] $end
+$var reg 8 = reg_write_val[7:0] $end
+$var reg 1 > wr $end
+$var reg 1 ? clk $end
+$var reg 1 @ rst $end
+$var reg 8 A reg_0_val[7:0] $end
+$var reg 8 B reg_1_val[7:0] $end
+$comment regs is not handled $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+bUU !
+b000 "
+b000 #
+0$
+0%
+0&
+bUU '
+b000 (
+b000 )
+0*
+0+
+0,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+U2
+b00000000 3
+b00000000 4
+U5
+b00000000 6
+b00000000 7
+b00000000 8
+bUU 9
+b00000000 :
+b000 ;
+b000 <
+b00000000 =
+0>
+0?
+0@
+b00000000 A
+b00000000 B
+#5000000
+1$
+1*
+1@
+#10000000
+b11 !
+b100 #
+b11 '
+b100 )
+b00000100 -
+b00000100 .
+b00000100 1
+12
+b00000100 4
+15
+b00000100 6
+b00000100 8
+b11 9
+b00000100 :
+b100 <
+b00000100 =
+#15000000
+1%
+1+
+1?
+#20000000
+0%
+1&
+0+
+1,
+1>
+0?
+#25000000
+1%
+1+
+b00000100 /
+b00000100 7
+1?
+b00000100 A
+#30000000
+b010 "
+b011 #
+0%
+0&
+b010 (
+b011 )
+0+
+0,
+b00000011 -
+b00000011 .
+b00000000 /
+b00000011 1
+b00000011 4
+b00000011 6
+b00000000 7
+b00000011 8
+b00000011 :
+b010 ;
+b011 <
+b00000011 =
+0>
+0?
+b00000000 A
+#35000000
+1%
+1+
+1?
+#40000000
+0%
+1&
+0+
+1,
+1>
+0?
+#45000000
+1%
+1+
+b00000011 /
+b00000011 7
+1?
+b00000011 A
+#50000000
+b00 !
+b000 "
+b010 #
+0%
+0&
+b00 '
+b000 (
+b010 )
+0+
+0,
+b00000111 .
+b00000100 /
+b00000011 0
+b00000010 1
+02
+b00000011 3
+b00000010 4
+05
+b00000100 7
+b00 9
+b00000111 :
+b000 ;
+b010 <
+b00000111 =
+0>
+0?
+b00000100 A
+b00000011 B
+#55000000
+1%
+1+
+1?
+#60000000
+0%
+1&
+0+
+1,
+1>
+0?
+#65000000
+1%
+1+
+b00001010 .
+b00000111 /
+b00000111 7
+b00001010 :
+b00001010 =
+1?
+b00000111 A
+#70000000
+b11 !
+b111 "
+b111 #
+0%
+0&
+b11 '
+b111 (
+b111 )
+0+
+0,
+b00000111 -
+b00000111 .
+b00000000 /
+b00000000 0
+b00000111 1
+12
+b00000000 3
+b00000111 4
+15
+b00000111 6
+b00000000 7
+b00000111 8
+b11 9
+b00000111 :
+b111 ;
+b111 <
+b00000111 =
+0>
+0?
+b00000000 A
+b00000000 B
+#75000000
+1%
+1+
+1?
+#80000000
+0%
+1&
+0+
+1,
+1>
+0?
+#85000000
+1%
+1+
+b00000111 /
+b00000111 0
+b00000111 3
+b00000111 7
+1?
+b00000111 A
+b00000111 B
+#90000000
+b01 !
+b000 "
+0%
+0&
+b01 '
+b000 (
+0+
+0,
+b00000000 .
+02
+05
+b01 9
+b00000000 :
+b000 ;
+b00000000 =
+0>
+0?
+#95000000
+1%
+1+
+1?
+#100000000
+0%
+1&
+0+
+1,
+1>
+0?
+#105000000
+1%
+1+
+b11111001 .
+b00000000 /
+b00000000 7
+b11111001 :
+b11111001 =
+1?
+b00000000 A
+#110000000
+0%
+0&
+0+
+0,
+0>
+0?
+#115000000

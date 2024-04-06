@@ -1,0 +1,53 @@
+$date
+  Tue Nov  9 11:59:26 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module p3e_test $end
+$var reg 8 ! at[7:0] $end
+$var reg 8 " ct[7:0] $end
+$var reg 1 # bt $end
+$scope module po $end
+$var reg 8 $ a[7:0] $end
+$var reg 1 % b $end
+$var reg 8 & c[7:0] $end
+$scope module porte(0) $end
+$upscope $end
+$scope module porte(1) $end
+$upscope $end
+$scope module porte(2) $end
+$upscope $end
+$scope module porte(3) $end
+$upscope $end
+$scope module porte(4) $end
+$upscope $end
+$scope module porte(5) $end
+$upscope $end
+$scope module porte(6) $end
+$upscope $end
+$scope module porte(7) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000001 !
+b00000001 "
+1#
+b00000001 $
+1%
+b00000001 &
+#5000000
+bZZZZZZZZ "
+0#
+0%
+bZZZZZZZZ &
+#10000000
